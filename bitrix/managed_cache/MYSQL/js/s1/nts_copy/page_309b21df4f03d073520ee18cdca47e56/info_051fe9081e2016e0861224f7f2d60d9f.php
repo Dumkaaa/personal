@@ -1,0 +1,1 @@
+<? $arFilesInfo = array( 'FILES' => array("/bitrix/components/ampersand/catalog_sortable/templates/.default/bitrix/catalog.section/.default/script.js" => "141804095339549",), 'CUR_SEL_CNT' => '0', 'CUR_IE_CNT' => '0'); ?>

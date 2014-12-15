@@ -1,0 +1,1 @@
+<? $arFilesInfo = array( 'FILES' => array("/bitrix/templates/nts/components/bitrix/menu/left-right/style.css" => "1415350163626",), 'CUR_SEL_CNT' => '9', 'CUR_IE_CNT' => '0'); ?>

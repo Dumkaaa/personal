@@ -1,0 +1,750 @@
+2014-11-07 10:40:43 -  - exec CUpdateClientPartner::SearchModulesEx
+2014-11-07 10:40:43 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-07 10:40:43 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&search_module_id=&search_module=&search_category=7%2C14&search_type=&search_order=DESC&search_order_by=SORT&search_page=1
+2014-11-07 10:40:43 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-07 10:40:46 -  - TIME SearchModulesEx(request) 3.033 sec
+2014-11-07 10:40:46 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-07 10:40:56 -  - exec CUpdateClientPartner::LoadModuleNoDemand
+2014-11-07 10:40:56 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-07 10:40:56 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=nsandrey.emptyinstall&lim=Y
+2014-11-07 10:40:56 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-07 10:40:57 -  - TIME LoadModuleNoDemand(request) 1.19 sec
+2014-11-07 10:40:57 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-07 10:40:57 -  - TIME UnGzipArchive 0.072 sec
+2014-11-07 10:40:57 -  - exec CUpdateClientPartner::GetStepUpdateInfo
+2014-11-07 10:40:57 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-07 10:40:57 -  - TIME UpdateStepModules 0.132 sec
+2014-11-07 10:47:15 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-11-07 10:47:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-07 10:47:15 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall
+2014-11-07 10:47:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-07 10:47:15 -  - TIME GetUpdatesList(request) 0.471 sec
+2014-11-07 10:47:15 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-07 10:47:18 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-11-07 10:47:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-07 10:47:18 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall
+2014-11-07 10:47:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-07 10:47:18 -  - TIME GetUpdatesList(request) 0.358 sec
+2014-11-07 10:47:18 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-07 10:51:43 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-11-07 10:51:43 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-07 10:51:43 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y
+2014-11-07 10:51:43 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-07 10:51:43 -  - TIME GetUpdatesList(request) 0.341 sec
+2014-11-07 10:51:43 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-07 10:51:46 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-11-07 10:51:46 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-07 10:51:46 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall
+2014-11-07 10:51:46 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-07 10:51:46 -  - TIME GetUpdatesList(request) 0.347 sec
+2014-11-07 10:51:46 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-07 10:51:53 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-11-07 10:51:53 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-07 10:51:53 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y
+2014-11-07 10:51:53 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-07 10:51:53 -  - TIME GetUpdatesList(request) 0.409 sec
+2014-11-07 10:51:53 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:24:53 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-11-10 14:24:53 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:24:53 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall%2Caltasib.feedback
+2014-11-10 14:24:53 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:24:54 -  - TIME GetUpdatesList(request) 0.758 sec
+2014-11-10 14:24:54 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:24:58 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:24:58 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:24:58 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback&lim=Y
+2014-11-10 14:24:58 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:24:59 -  - TIME LoadModulesUpdates(request) 0.489 sec
+2014-11-10 14:24:59 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:24:59 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:24:59 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:24:59 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:24:59 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:00 - DOWNLOAD - Time - 0.858049154282 sec
+2014-11-10 14:25:00 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:25:00 -  - TIME UnGzipArchive 0.135 sec
+2014-11-10 14:25:00 -  - TIME UpdateStepModules 0.147 sec
+2014-11-10 14:25:00 - UPD_SUCCESS - Updated: altasib.feedback
+2014-11-10 14:25:00 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:00 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:00 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.0.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback&lim=Y
+2014-11-10 14:25:00 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:25:01 -  - TIME LoadModulesUpdates(request) 0.465 sec
+2014-11-10 14:25:01 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:01 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:25:01 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:01 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:02 - DOWNLOAD - Time - 0.712041139603 sec
+2014-11-10 14:25:02 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:25:02 -  - TIME UnGzipArchive 0.035 sec
+2014-11-10 14:25:02 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615102/altasib.feedback/updater1.0.3.php'
+2014-11-10 14:25:02 -  - TIME UpdateStepModules 0.076 sec
+2014-11-10 14:25:02 - UPD_SUCCESS - Updated: altasib.feedback (1.0.3)<br> - Исправление незначительных ошибок интерфейса. 
+2014-11-10 14:25:02 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:02 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.0.3%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback&lim=Y
+2014-11-10 14:25:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:25:02 -  - TIME LoadModulesUpdates(request) 0.409 sec
+2014-11-10 14:25:02 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:02 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:25:03 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:03 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:03 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:03 - DOWNLOAD - Time - 0.698040008545 sec
+2014-11-10 14:25:03 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:25:03 -  - TIME UnGzipArchive 0.036 sec
+2014-11-10 14:25:03 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615103/altasib.feedback/updater1.0.4.php'
+2014-11-10 14:25:04 -  - TIME UpdateStepModules 0.066 sec
+2014-11-10 14:25:04 - UPD_SUCCESS - Updated: altasib.feedback (1.0.4)<br> - Исправление незначительных ошибок CSS. - Доработка почтовых шаблонов. 
+2014-11-10 14:25:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:04 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.0.4%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback&lim=Y
+2014-11-10 14:25:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:25:04 -  - TIME LoadModulesUpdates(request) 0.416 sec
+2014-11-10 14:25:04 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:04 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:25:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:04 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:05 - DOWNLOAD - Time - 0.67703795433 sec
+2014-11-10 14:25:05 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:25:05 -  - TIME UnGzipArchive 0.036 sec
+2014-11-10 14:25:05 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615105/altasib.feedback/updater1.0.5.php'
+2014-11-10 14:25:05 -  - TIME UpdateStepModules 0.066 sec
+2014-11-10 14:25:05 - UPD_SUCCESS - Updated: altasib.feedback (1.0.5)<br> - Исправление незначительных ошибок CSS. - Доработка компонента. 
+2014-11-10 14:25:05 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:06 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.0.5%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback&lim=Y
+2014-11-10 14:25:06 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:25:06 -  - TIME LoadModulesUpdates(request) 0.414 sec
+2014-11-10 14:25:06 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:06 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:25:06 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:06 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:06 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:07 - DOWNLOAD - Time - 0.903050899506 sec
+2014-11-10 14:25:07 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:25:07 -  - TIME UnGzipArchive 0.085 sec
+2014-11-10 14:25:07 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615107/altasib.feedback/updater1.1.0.php'
+2014-11-10 14:25:07 -  - TIME UpdateStepModules 0.15 sec
+2014-11-10 14:25:07 - UPD_SUCCESS - Updated: altasib.feedback (1.1.0)<br> - Оптимизация шаблонов компонента (универсальный вид). - Добавление настроек интерфейса. - Добавлена функция перезагрузки изображения капчи. - Усилена безопасность модуля.
+2014-11-10 14:25:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:08 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.1.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback&lim=Y
+2014-11-10 14:25:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:25:08 -  - TIME LoadModulesUpdates(request) 0.397 sec
+2014-11-10 14:25:08 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:08 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:25:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:08 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:09 - DOWNLOAD - Time - 0.934052944183 sec
+2014-11-10 14:25:09 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:25:09 -  - TIME UnGzipArchive 0.063 sec
+2014-11-10 14:25:09 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615109/altasib.feedback/updater1.1.1.php'
+2014-11-10 14:25:09 -  - TIME UpdateStepModules 0.12 sec
+2014-11-10 14:25:09 - UPD_SUCCESS - Updated: altasib.feedback (1.1.1)<br> - Изменен способ подключения jquery - Мелкие правки по оптимизации кода
+2014-11-10 14:25:10 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:10 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.1.1%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback&lim=Y
+2014-11-10 14:25:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:25:10 -  - TIME LoadModulesUpdates(request) 0.426 sec
+2014-11-10 14:25:10 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:10 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:25:10 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:10 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:11 - DOWNLOAD - Time - 1.16006708145 sec
+2014-11-10 14:25:11 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:25:12 -  - TIME UnGzipArchive 0.079 sec
+2014-11-10 14:25:12 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615111/altasib.feedback/updater1.1.2.php'
+2014-11-10 14:25:12 -  - TIME UpdateStepModules 0.209 sec
+2014-11-10 14:25:12 - UPD_SUCCESS - Updated: altasib.feedback (1.1.2)<br> - Исправление ошибок модуля
+2014-11-10 14:25:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:12 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:12 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.1.2%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback&lim=Y
+2014-11-10 14:25:12 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:25:13 -  - TIME LoadModulesUpdates(request) 0.52 sec
+2014-11-10 14:25:13 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:13 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:25:13 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:13 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:13 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:14 - DOWNLOAD - Time - 0.734041929245 sec
+2014-11-10 14:25:14 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:25:14 -  - TIME UnGzipArchive 0.149 sec
+2014-11-10 14:25:14 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615114/altasib.feedback/updater1.1.3.php'
+2014-11-10 14:25:14 -  - TIME UpdateStepModules 0.118 sec
+2014-11-10 14:25:14 - UPD_SUCCESS - Updated: altasib.feedback (1.1.3)<br> - Улучшена безопасность модуля - Добавлена возможность задавать e-mail для разных разделов.
+2014-11-10 14:25:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:16 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.1.3%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback&lim=Y
+2014-11-10 14:25:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:25:16 -  - TIME LoadModulesUpdates(request) 0.401 sec
+2014-11-10 14:25:16 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:16 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:25:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:16 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:17 - DOWNLOAD - Time - 0.677039146423 sec
+2014-11-10 14:25:17 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:25:17 -  - TIME UnGzipArchive 0.065 sec
+2014-11-10 14:25:17 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615117/altasib.feedback/updater1.1.4.php'
+2014-11-10 14:25:17 -  - TIME UpdateStepModules 0.127 sec
+2014-11-10 14:25:17 - UPD_SUCCESS - Updated: altasib.feedback (1.1.4)<br> - Исправление ошибок интерфейса.
+2014-11-10 14:25:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:18 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.1.4%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback&lim=Y
+2014-11-10 14:25:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:25:18 -  - TIME LoadModulesUpdates(request) 0.448 sec
+2014-11-10 14:25:18 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:18 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:25:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:18 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:19 - DOWNLOAD - Time - 0.611035108566 sec
+2014-11-10 14:25:19 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:25:19 -  - TIME UnGzipArchive 0.074 sec
+2014-11-10 14:25:19 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615119/altasib.feedback/updater1.1.7.php'
+2014-11-10 14:25:19 -  - TIME UpdateStepModules 0.118 sec
+2014-11-10 14:25:19 - UPD_SUCCESS - Updated: altasib.feedback (1.1.7)<br> - Изменение почтового шаблона. - Отладка загрузки прикрепленных файлов.
+2014-11-10 14:25:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:19 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:19 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.1.7%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback&lim=Y
+2014-11-10 14:25:19 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:25:20 -  - TIME LoadModulesUpdates(request) 0.444 sec
+2014-11-10 14:25:20 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:20 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:25:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:20 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:21 - DOWNLOAD - Time - 0.559031963348 sec
+2014-11-10 14:25:21 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:25:21 -  - TIME UnGzipArchive 0.081 sec
+2014-11-10 14:25:21 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615121/altasib.feedback/updater1.1.8.php'
+2014-11-10 14:25:21 -  - TIME UpdateStepModules 0.124 sec
+2014-11-10 14:25:21 - UPD_SUCCESS - Updated: altasib.feedback (1.1.8)<br>- Исправление ошибок модуля (неактивные разделы теперь не выводятся в выпадающем списке категорий обращения).
+2014-11-10 14:25:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:21 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.1.8%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback&lim=Y
+2014-11-10 14:25:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:25:21 -  - TIME LoadModulesUpdates(request) 0.39 sec
+2014-11-10 14:25:21 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:21 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:25:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:22 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:22 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:22 - DOWNLOAD - Time - 0.514029979706 sec
+2014-11-10 14:25:22 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:25:22 -  - TIME UnGzipArchive 0.09 sec
+2014-11-10 14:25:22 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615122/altasib.feedback/updater1.1.9.php'
+2014-11-10 14:25:22 -  - TIME UpdateStepModules 0.153 sec
+2014-11-10 14:25:22 - UPD_SUCCESS - Updated: altasib.feedback (1.1.9)<br>- Добавлена поддержка раскрывающихся списков, списков множественного выбора, переключателей, флажков. - Оптимизация работы формы при размещении нескольких компонентов на странице.
+2014-11-10 14:25:23 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:23 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:23 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.1.9%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback&lim=Y
+2014-11-10 14:25:23 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:25:23 -  - TIME LoadModulesUpdates(request) 0.535 sec
+2014-11-10 14:25:23 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:23 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:25:23 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:23 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:23 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:24 - DOWNLOAD - Time - 0.549031972885 sec
+2014-11-10 14:25:24 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:25:24 -  - TIME UnGzipArchive 0.059 sec
+2014-11-10 14:25:24 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615124/altasib.feedback/updater1.2.0.php'
+2014-11-10 14:25:24 -  - TIME UpdateStepModules 0.123 sec
+2014-11-10 14:25:24 - UPD_SUCCESS - Updated: altasib.feedback (1.2.0)<br>- Добавлена поддержка поля типа дата и текст. - Задействованы настройки свойств инфоблока \"Подсказка\" и \"Значение по умолчанию\". - Добавлена возможность подставлять обратный адрес в письме администратору из поля E-mail, заполненного пользователем. - Исправлены мелкие ошибки, доработаны шаблоны.
+2014-11-10 14:25:25 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:25 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:25 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.2.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback&lim=Y
+2014-11-10 14:25:25 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:25:25 -  - TIME LoadModulesUpdates(request) 0.498 sec
+2014-11-10 14:25:25 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:25 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:25:25 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:25 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:25 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:26 - DOWNLOAD - Time - 0.738043069839 sec
+2014-11-10 14:25:26 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:25:26 -  - TIME UnGzipArchive 0.085 sec
+2014-11-10 14:25:26 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615126/altasib.feedback/updater1.2.1.php'
+2014-11-10 14:25:26 -  - TIME UpdateStepModules 0.118 sec
+2014-11-10 14:25:26 - UPD_SUCCESS - Updated: altasib.feedback (1.2.1)<br>- Добавлен параметр промотки страницы к началу формы после отправки - При установленном модуле \"<a href=\"/solutions/altasib.geoip/\">altasib.geoip</a>\" в поле с кодом \"CITY\" подставляется город пользователя
+2014-11-10 14:25:27 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:27 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:27 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.2.1%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback&lim=Y
+2014-11-10 14:25:27 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:25:27 -  - TIME LoadModulesUpdates(request) 0.403 sec
+2014-11-10 14:25:27 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:27 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:25:27 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:27 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:27 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:28 - DOWNLOAD - Time - 0.529029846191 sec
+2014-11-10 14:25:28 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:25:28 -  - TIME UnGzipArchive 0.017 sec
+2014-11-10 14:25:28 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615128/altasib.feedback/updater1.2.2.php'
+2014-11-10 14:25:28 -  - TIME UpdateStepModules 0.035 sec
+2014-11-10 14:25:28 - UPD_SUCCESS - Updated: altasib.feedback (1.2.2)<br> - Исправлена ошибка обновления капчи при расположении на одной странице сразу нескольких веб-форм 
+2014-11-10 14:25:28 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:28 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:28 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.2.2%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback&lim=Y
+2014-11-10 14:25:28 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:25:29 -  - TIME LoadModulesUpdates(request) 0.411 sec
+2014-11-10 14:25:29 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:29 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:25:29 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:29 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:29 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:29 - DOWNLOAD - Time - 0.504029035568 sec
+2014-11-10 14:25:29 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:25:29 -  - TIME UnGzipArchive 0.02 sec
+2014-11-10 14:25:29 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615129/altasib.feedback/updater1.2.3.php'
+2014-11-10 14:25:29 -  - TIME UpdateStepModules 0.035 sec
+2014-11-10 14:25:29 - UPD_SUCCESS - Updated: altasib.feedback (1.2.3)<br> - Исправлена ошибка, возникающая в версии PHP 5.4 
+2014-11-10 14:25:30 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:30 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:30 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.2.3%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback&lim=Y
+2014-11-10 14:25:30 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:25:30 -  - TIME LoadModulesUpdates(request) 0.473 sec
+2014-11-10 14:25:30 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:30 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:25:30 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:30 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:30 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:31 - DOWNLOAD - Time - 0.474026918411 sec
+2014-11-10 14:25:31 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:25:31 -  - TIME UnGzipArchive 0.043 sec
+2014-11-10 14:25:31 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615131/altasib.feedback/updater1.3.0.php'
+2014-11-10 14:25:31 -  - TIME UpdateStepModules 0.048 sec
+2014-11-10 14:25:31 - UPD_SUCCESS - Updated: altasib.feedback (1.3.0)<br> - адаптация для технологии \"Композитный сайт\" 
+2014-11-10 14:25:31 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:25:31 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:31 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback&lim=Y
+2014-11-10 14:25:31 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:25:32 -  - TIME LoadModulesUpdates(request) 0.427 sec
+2014-11-10 14:25:32 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:25:32 - STEP - Finish - NOUPDATES
+2014-11-10 14:25:32 - STEP - Finish - NOUPDATES
+2014-11-10 14:25:34 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-11-10 14:25:34 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:25:34 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback%2Cbitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y
+2014-11-10 14:25:34 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:25:34 -  - TIME GetUpdatesList(request) 0.519 sec
+2014-11-10 14:25:34 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:33 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-11-10 14:28:33 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:33 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback%2Cbitrix.sitecorporate%2Cnsandrey.emptyinstall%2Capi.feedback
+2014-11-10 14:28:33 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:28:34 -  - TIME GetUpdatesList(request) 0.447 sec
+2014-11-10 14:28:34 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:38 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:28:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:28:38 -  - TIME LoadModulesUpdates(request) 0.492 sec
+2014-11-10 14:28:38 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:38 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:28:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:38 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:39 - DOWNLOAD - Time - 0.406023979187 sec
+2014-11-10 14:28:39 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:28:39 -  - TIME UnGzipArchive 0.036 sec
+2014-11-10 14:28:39 -  - TIME UpdateStepModules 0.056 sec
+2014-11-10 14:28:39 - UPD_SUCCESS - Updated: api.feedback
+2014-11-10 14:28:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:39 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.0.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:28:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:28:40 -  - TIME LoadModulesUpdates(request) 0.389 sec
+2014-11-10 14:28:40 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:40 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:28:40 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:40 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:40 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:41 - DOWNLOAD - Time - 0.692039966583 sec
+2014-11-10 14:28:41 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:28:41 -  - TIME UnGzipArchive 0.106 sec
+2014-11-10 14:28:41 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615321/api.feedback/updater1.3.0.php'
+2014-11-10 14:28:41 -  - TIME UpdateStepModules 0.151 sec
+2014-11-10 14:28:41 - UPD_SUCCESS - Updated: api.feedback (1.3.0)<br>1) Исправлена ошибка, когда при копировании шаблона не отображались иконки jQuery валидатора формы. <br> 2) Добавлен плагин стилизации флажков/переключателей <b>jQuery Form Styler</b>.<br>
+2014-11-10 14:28:41 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:41 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:41 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.3.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:28:41 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:28:42 -  - TIME LoadModulesUpdates(request) 0.379 sec
+2014-11-10 14:28:42 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:42 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:28:42 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:42 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:42 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:43 - DOWNLOAD - Time - 0.60303401947 sec
+2014-11-10 14:28:43 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:28:43 -  - TIME UnGzipArchive 0.158 sec
+2014-11-10 14:28:43 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615323/api.feedback/updater1.3.1.php'
+2014-11-10 14:28:43 -  - TIME UpdateStepModules 0.081 sec
+2014-11-10 14:28:43 - UPD_SUCCESS - Updated: api.feedback (1.3.1)<br>1. Добавлены во все системные шаблоны кроссбраузерные <b>placeholder\'ы</b> ко всем полям и соответствующая опция в настройках компонента для их включения;<br> 2. Исправлена ошибка обработки поля типа <b>E-mail</b> в конструкторе форм, синтаксис: <b>E-mail@input@email@required</b> 
+2014-11-10 14:28:43 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:43 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:43 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.3.1%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:28:43 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:28:44 -  - TIME LoadModulesUpdates(request) 0.457 sec
+2014-11-10 14:28:44 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:44 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:28:44 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:44 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:44 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:44 - DOWNLOAD - Time - 0.577032804489 sec
+2014-11-10 14:28:44 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:28:44 -  - TIME UnGzipArchive 0.059 sec
+2014-11-10 14:28:44 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615324/api.feedback/updater1.3.2.php'
+2014-11-10 14:28:45 -  - TIME UpdateStepModules 0.079 sec
+2014-11-10 14:28:45 - UPD_SUCCESS - Updated: api.feedback (1.3.2)<br>- добавлен автоматический режим заполнения почтового шаблона в виде одного макроса <b>#WORK_AREA#</b> в почтовом шаблоне, больше не нужно писать в нем вручную названия полей и макросы, также сделана совместимость, присутствующие в шаблоне макросы будут также подменяться;<br> - добавлена возможность переопределять e-mail администратора из настроек компонента в поле Кому в почтовом шаблоне административной панели, все письма будут отправляться на вписанный в поле Кому e-mail вместо макроса #EMAIL_TO#; - добавлены системные макросы: IP отправителя:#IP#, Дата и время:#DATETIME#, системные макросы пишутся в почтовом шаблоне вручную;<br> - добавлена опция \"Очищать папку с файлами\" после отправки сообщения. В этом случае отправка ссылок на файлы невозможна, т.к. файлы будут удалены на сервере, в этом случае будет автоматически работать опция \"Отправлять как вложения\";<br> - добавлена транслитерация кириллических(русских) имен файлов, т.к. некоторые почтовые программы, например, Mozilla Thunderbird, не распознают пробелы и имя файла получается разорвано, соответственно перейдя по ссылке файл не будет найден, а если еще на хостинге не настроена поддержка кириллических имен файлов, то имя файла при загрузке становится кракозябрами;<br> - исправлена ошибка, когда не подменялось не введенное пользователем поле e-mail, на e-mail из поля от кого, при включенной опции: Подставлять в поле \"От\" e-mail посетителя;<br> - исправлена ошибка, когда вместо пустых интервалов дат добавлялась одна запятая;<br> - исправлена ошибка с вложениями файлов, когда макрос #FILES# в почтовом шаблоне был без переноса строки, вложения отображались кракозябрами в письме;<br> - исправлена ошибка, когда не добавлялись макросы почтового шаблона в Тип почтового события FEEDBACK_FORM;<br> - при обязательной загрузке файлов выводилось сообщение Введите \"Файл\", заменено на Введите \"Все файлы\";<br> - переписаны некоторые ошибки с рекомендациями по их устранению;<br> - в случае многосайтовой конфигурации макрос #SITE_NAME# - Название сайта будет браться из секции Параметры->Название сайта на странице редактирования сайта, иначе берется из Названия сайта в настройках Главного модуля;<br> - теперь в почтовых шаблонах модуля при установке по умолчанию прописан макрос #WORK_AREA# для автоматического режима работы;<br>
+2014-11-10 14:28:45 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:45 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:45 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.3.2%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:28:45 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:28:45 -  - TIME LoadModulesUpdates(request) 0.408 sec
+2014-11-10 14:28:45 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:45 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:28:45 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:45 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:45 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:46 - DOWNLOAD - Time - 0.563032150269 sec
+2014-11-10 14:28:46 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:28:46 -  - TIME UnGzipArchive 0.013 sec
+2014-11-10 14:28:46 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615326/api.feedback/updater1.3.3.php'
+2014-11-10 14:28:46 -  - TIME UpdateStepModules 0.022 sec
+2014-11-10 14:28:46 - UPD_SUCCESS - Updated: api.feedback (1.3.3)<br>- в почтовый шаблон добавлен макрос #HTTP_USER_AGENT# - эта строка содержит обозначение браузера, которым пользователь запросил данную страницу, например: Mozilla/4.5 [en] (X11; U; Linux 2.2.9 i586).<br> - для полей конструктора типа text, date, textarea добавлена возможность задать значения по умолчанию атрибутом @value=, которые будут выводиться в форме и отправляться на почту, как заполненные, например: Текстовое поле@input@text@required<b>@value=Значение по умолчанию</b><br>
+2014-11-10 14:28:46 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:46 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:46 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.3.3%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:28:46 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:28:47 -  - TIME LoadModulesUpdates(request) 0.434 sec
+2014-11-10 14:28:47 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:47 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:28:47 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:47 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:47 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:47 - DOWNLOAD - Time - 0.375021934509 sec
+2014-11-10 14:28:47 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:28:47 -  - TIME UnGzipArchive 0.006 sec
+2014-11-10 14:28:47 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615327/api.feedback/updater1.3.4.php'
+2014-11-10 14:28:47 -  - TIME UpdateStepModules 0.009 sec
+2014-11-10 14:28:47 - UPD_SUCCESS - Updated: api.feedback (1.3.4)<br>- исправлена ошибка, когда выводилась информация об ошибке, при включенной копии сообщения посетителю, а поле e-mail не обязательное;<br> - все возможные заполненные в профиле пользователя поля подставляются в форме автоматически, кроме Администратора.<br>
+2014-11-10 14:28:48 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:48 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:48 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.3.4%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:28:48 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:28:48 -  - TIME LoadModulesUpdates(request) 0.451 sec
+2014-11-10 14:28:48 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:48 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:28:48 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:48 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:48 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:49 - DOWNLOAD - Time - 0.518029928207 sec
+2014-11-10 14:28:49 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:28:49 -  - TIME UnGzipArchive 0.028 sec
+2014-11-10 14:28:49 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615329/api.feedback/updater1.3.5.php'
+2014-11-10 14:28:49 -  - TIME UpdateStepModules 0.032 sec
+2014-11-10 14:28:49 - UPD_SUCCESS - Updated: api.feedback (1.3.5)<br>- улучшен антиспам во всех шаблонах. Пробуйте отключать стандартную капчу, он практически бесполезна.<br> - в component.php все $_POST заменил на $_REQUEST, чтобы работали и $_GET и $_POST ajax-запросы.
+2014-11-10 14:28:49 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:49 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:49 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.3.5%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:28:49 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:28:50 -  - TIME LoadModulesUpdates(request) 0.459 sec
+2014-11-10 14:28:50 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:50 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:28:50 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:50 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:50 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:51 - DOWNLOAD - Time - 0.556031942368 sec
+2014-11-10 14:28:51 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:28:51 -  - TIME UnGzipArchive 0.027 sec
+2014-11-10 14:28:51 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615331/api.feedback/updater1.3.6.php'
+2014-11-10 14:28:51 -  - TIME UpdateStepModules 0.045 sec
+2014-11-10 14:28:51 - UPD_SUCCESS - Updated: api.feedback (1.3.6)<br>- переработан CSS-антиспам во всех шаблонах;<br> - <b>добавлен PHP-антиспам</b> с указанием разрешенного количества совпадений для текстовых полей, подробно читайте в подсказке к опции в настройках компонента, по умолчанию отключен, включается в настройках компонента;<br> - настройки CAPTCHA и антиспама вынесены в отдельный раздел;<br> - несколько мелких исправлений по коду и описаниям.
+2014-11-10 14:28:51 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:51 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:51 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.3.6%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:28:51 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:28:51 -  - TIME LoadModulesUpdates(request) 0.415 sec
+2014-11-10 14:28:51 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:51 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:28:52 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:52 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:52 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:52 - DOWNLOAD - Time - 0.41602396965 sec
+2014-11-10 14:28:52 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:28:52 -  - TIME UnGzipArchive 0.008 sec
+2014-11-10 14:28:52 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615332/api.feedback/updater1.3.7.php'
+2014-11-10 14:28:52 -  - TIME UpdateStepModules 0.012 sec
+2014-11-10 14:28:52 - UPD_SUCCESS - Updated: api.feedback (1.3.7)<br>- исправлена инициализация jQuery-валидатора;<br> - исправлена ошибка в модуле PHP-антиспам.
+2014-11-10 14:28:53 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:53 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:53 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.3.7%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:28:53 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:28:53 -  - TIME LoadModulesUpdates(request) 0.589 sec
+2014-11-10 14:28:53 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:53 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:28:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:55 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:55 - DOWNLOAD - Time - 0.46802687645 sec
+2014-11-10 14:28:55 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:28:55 -  - TIME UnGzipArchive 0.008 sec
+2014-11-10 14:28:55 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615335/api.feedback/updater1.3.8.php'
+2014-11-10 14:28:55 -  - TIME UpdateStepModules 0.012 sec
+2014-11-10 14:28:55 - UPD_SUCCESS - Updated: api.feedback (1.3.8)<br>- полностью переработаны заголовки письма, у меня письма больше не попадают в спам, конкретно доработаны под требования хостинга <a href=\"http://beget.ru?id=81076\" target=\"_blank\">http://beget.ru?id=81076</a> в котором при особых условиях подменяется e-mail отправителя на e-mail хостинга в целях борьбы с массовым спамом; - исправлена ошибка, когда поле e-mail конструктора форм не участвовало в подмене адреса отправителя при включенной опции \"Подставлять в поле \"От\" e-mail посетителя\"; - исправлена ошибка, когда при макросе #FILES# все тело письма ниже обрезалось. <b>p.s.:</b> На некоторых хостингах опция \"Подставлять в поле \"От\" e-mail посетителя\" может не работать или отправлять письма в спам, т.к. происходит подмена e-mail реального отправителя письма.
+2014-11-10 14:28:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:55 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.3.8%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:28:55 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:28:56 -  - TIME LoadModulesUpdates(request) 0.493 sec
+2014-11-10 14:28:56 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:56 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:28:56 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:56 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:56 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:57 - DOWNLOAD - Time - 0.629035949707 sec
+2014-11-10 14:28:57 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:28:57 -  - TIME UnGzipArchive 0.062 sec
+2014-11-10 14:28:57 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615337/api.feedback/updater1.3.9.php'
+2014-11-10 14:28:57 -  - TIME UpdateStepModules 0.178 sec
+2014-11-10 14:28:57 - UPD_SUCCESS - Updated: api.feedback (1.3.9)<br>- во всех шаблонах в форме изменен атрибут <b>action</b> на константу <b>POST_FORM_ACTION_URI</b>; - переработаны заголовки письма для программы Microsoft Outlook 2010, теперь html-письма в ней отображаются корректно;
+2014-11-10 14:28:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:57 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.3.9%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:28:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:28:58 -  - TIME LoadModulesUpdates(request) 0.429 sec
+2014-11-10 14:28:58 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:58 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:28:58 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:58 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:58 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:58 - DOWNLOAD - Time - 0.401022911072 sec
+2014-11-10 14:28:58 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:28:58 -  - TIME UnGzipArchive 0.007 sec
+2014-11-10 14:28:58 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615338/api.feedback/updater1.4.0.php'
+2014-11-10 14:28:58 -  - TIME UpdateStepModules 0.009 sec
+2014-11-10 14:28:58 - UPD_SUCCESS - Updated: api.feedback (1.4.0)<br>исправлена ошибка в конструкторе, не отправлялась копия письма отправителю.
+2014-11-10 14:28:59 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:59 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:59 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.4.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:28:59 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:28:59 -  - TIME LoadModulesUpdates(request) 0.43 sec
+2014-11-10 14:28:59 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:28:59 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:28:59 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:28:59 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:28:59 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:00 - DOWNLOAD - Time - 0.658037900925 sec
+2014-11-10 14:29:00 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:29:00 -  - TIME UnGzipArchive 0.058 sec
+2014-11-10 14:29:00 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615340/api.feedback/updater1.4.1.php'
+2014-11-10 14:29:00 -  - TIME UpdateStepModules 0.179 sec
+2014-11-10 14:29:00 - UPD_SUCCESS - Updated: api.feedback (1.4.1)<br>- Еще доработан CSS-антиспам<br> Пробуйте отключить капчу, но включить CSS-антиспам. Изменения будут работать только на системных шаблонах компонента, на скопированных шаблонах достаточно добавить две строчки. 
+2014-11-10 14:29:01 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:01 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.4.1%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:29:01 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:29:01 -  - TIME LoadModulesUpdates(request) 0.567 sec
+2014-11-10 14:29:01 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:01 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:29:03 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:03 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:03 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:03 - DOWNLOAD - Time - 0.566031932831 sec
+2014-11-10 14:29:03 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:29:03 -  - TIME UnGzipArchive 0.014 sec
+2014-11-10 14:29:03 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615343/api.feedback/updater1.4.2.php'
+2014-11-10 14:29:03 -  - TIME UpdateStepModules 0.025 sec
+2014-11-10 14:29:03 - UPD_SUCCESS - Updated: api.feedback (1.4.2)<br>- Добавлена запись формы в инфоблок, необходимый <b>Тип инфоблока и Инфоблок</b> будут созданы в параметрах компонента при включенной опции <b>Создать инфоблок и тип инфоблока</b>.<br> Для других инфоблоков обязательно необходимо наличие свойства типа \"строка\" с кодом <b>\"TICKET_ID\"</b>.<br> - Пока нет возможности подгружать файлы в инфоблок, но будет позже.<br> - В теме сообщения можно использовать все макросы, доступные в теле почтового шаблона.<br> Например, сейчас на инфоблоках вы сможете сделать тикетную систему, например:<br> <b>в теле сообщения написать так: </b>Ваше письмо принято, ему присвоен №#TICKET_ID#<br> <b>в теме сообщения написать так:</b> [Ticket#TICKET_ID] проблема с сайтом: #SITE_NAME#<br> - Макрос <b>#TICKET_ID#</b> доступен в теле сообщения и в теме сообщения;<br> - В название элемента инфоблока добавляется <b>название формы из настроек компонента</b>, если не будет задано, то добавится #TICKET_ID#.<br> - Если удалить какой-нибудь тикет, хоть в конце, хоть в середине, подсчет тикетов все равно пойдет с последнего номера в свойстве элемента TICKET_ID; <br> пишите любые пожелания по новому функционалу.<br>
+2014-11-10 14:29:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:04 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.4.2%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:29:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:29:04 -  - TIME LoadModulesUpdates(request) 0.368 sec
+2014-11-10 14:29:04 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:04 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:29:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:04 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:05 - DOWNLOAD - Time - 0.398022890091 sec
+2014-11-10 14:29:05 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:29:05 -  - TIME UnGzipArchive 0.007 sec
+2014-11-10 14:29:05 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615345/api.feedback/updater1.4.3.php'
+2014-11-10 14:29:05 -  - TIME UpdateStepModules 0.011 sec
+2014-11-10 14:29:05 - UPD_SUCCESS - Updated: api.feedback (1.4.3)<br>- добавлен макрос #DATETIME#
+2014-11-10 14:29:05 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:05 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.4.3%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:29:05 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:29:05 -  - TIME LoadModulesUpdates(request) 0.475 sec
+2014-11-10 14:29:05 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:05 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:29:06 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:06 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:06 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:06 - DOWNLOAD - Time - 0.521028995514 sec
+2014-11-10 14:29:06 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:29:06 -  - TIME UnGzipArchive 0.018 sec
+2014-11-10 14:29:06 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615346/api.feedback/updater1.4.4.php'
+2014-11-10 14:29:06 -  - TIME UpdateStepModules 0.032 sec
+2014-11-10 14:29:06 - UPD_SUCCESS - Updated: api.feedback (1.4.4)<br>В раздел <b>\"Внешний вид\"</b> добавлены опции:<br> - Скрывать названия полей формы;<br> - Класс для кнопки Отправить;<br> - ID для кнопки Отправить;<br> <br> а также добавлены подсказки для опций в этом разделе:<br> - Скрывать названия полей формы;<br> - Показывать заголовок формы;<br> - Текст заголовка<br>
+2014-11-10 14:29:06 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:06 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:06 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.4.4%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:29:06 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:29:07 -  - TIME LoadModulesUpdates(request) 0.395 sec
+2014-11-10 14:29:07 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:07 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:29:07 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:07 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:08 - DOWNLOAD - Time - 0.809046030045 sec
+2014-11-10 14:29:08 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:29:08 -  - TIME UnGzipArchive 0.031 sec
+2014-11-10 14:29:08 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615348/api.feedback/updater1.4.5.php'
+2014-11-10 14:29:08 -  - TIME UpdateStepModules 0.052 sec
+2014-11-10 14:29:08 - UPD_SUCCESS - Updated: api.feedback (1.4.5)<br>Добавлено:<br> - в параметры добавлено поле <b>\"Город работы\"(WORK_CITY)</b>;<br> - в поля конструктора добавлена возможность выводить поле <b>\"Купон на скидку\"</b>, будет работать только в встроенных шаблонах;<br> - в параметры компонента добавлен раздел <b>\"Настройки генератора уникального ID\"</b> с настройками - сейчас это работает для нового поля ввода купона: <b>Купон на скидку@input@coupon@required@button_value=Получить купон на скидку</b><br> - добавлены все возможные на сегодняшний примеры настроек полей в настройки компонента по умолчанию. <br> Изменено:<br> - для генерации ID самой формы теперь используется функция <b>uniqid()</b>;<br> Исправлено:<br> - удалены дубли параметра success в адресе страницы после отправки формы;<br>
+2014-11-10 14:29:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:09 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:10 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.4.5%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:29:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:29:10 -  - TIME LoadModulesUpdates(request) 0.466 sec
+2014-11-10 14:29:10 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:10 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:29:10 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:10 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:11 - DOWNLOAD - Time - 1.21106910706 sec
+2014-11-10 14:29:11 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:29:11 -  - TIME UnGzipArchive 0.011 sec
+2014-11-10 14:29:11 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615351/api.feedback/updater1.4.6.php'
+2014-11-10 14:29:11 -  - TIME UpdateStepModules 0.017 sec
+2014-11-10 14:29:11 - UPD_SUCCESS - Updated: api.feedback (1.4.6)<br>- теперь при записи сообщения в инфоблок прикрепляются файлы:<br> Клиентам, с установленным ранее инфоблоком статистики необходимо вручную добавить свойство в инфоблок с такими параметрами:<br> Название: <b>Файлы</b>;<br> Тип: <b>Файл</b>;<br> Акт: <b>Да</b>;<br> Множ: <b>Да</b>; <br> Обяз: <b>Нет</b>; <br> Сорт: <b>20</b>; <br> Код: <b>FILES</b>;<br> Доп. изм: <b>Выводить поле для описания значения</b>.<br>
+2014-11-10 14:29:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:12 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:12 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.4.6%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:29:12 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:29:12 -  - TIME LoadModulesUpdates(request) 0.405 sec
+2014-11-10 14:29:12 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:12 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:29:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:12 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:12 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:13 - DOWNLOAD - Time - 0.411022901535 sec
+2014-11-10 14:29:13 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:29:13 -  - TIME UnGzipArchive 0.005 sec
+2014-11-10 14:29:13 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615353/api.feedback/updater1.4.7.php'
+2014-11-10 14:29:13 -  - TIME UpdateStepModules 0.007 sec
+2014-11-10 14:29:13 - UPD_SUCCESS - Updated: api.feedback (1.4.7)<br>- исправлена ошибка с #TICKET_ID# в копии письма
+2014-11-10 14:29:13 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:13 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:13 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.4.7%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:29:13 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:29:14 -  - TIME LoadModulesUpdates(request) 0.535 sec
+2014-11-10 14:29:14 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:14 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:29:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:14 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:14 - DOWNLOAD - Time - 0.429024934769 sec
+2014-11-10 14:29:14 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:29:14 -  - TIME UnGzipArchive 0.013 sec
+2014-11-10 14:29:14 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615354/api.feedback/updater1.4.8.php'
+2014-11-10 14:29:14 -  - TIME UpdateStepModules 0.024 sec
+2014-11-10 14:29:15 - UPD_SUCCESS - Updated: api.feedback (1.4.8)<br>Добавлена поддержка композита
+2014-11-10 14:29:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:15 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.4.8%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:29:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:29:15 -  - TIME LoadModulesUpdates(request) 0.368 sec
+2014-11-10 14:29:15 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:15 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:29:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:15 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:16 - DOWNLOAD - Time - 0.622035980225 sec
+2014-11-10 14:29:16 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:29:16 -  - TIME UnGzipArchive 0.018 sec
+2014-11-10 14:29:16 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615356/api.feedback/updater1.4.9.php'
+2014-11-10 14:29:16 -  - TIME UpdateStepModules 0.034 sec
+2014-11-10 14:29:16 - UPD_SUCCESS - Updated: api.feedback (1.4.9)<br>[+] cкрытое поле@input@hidden@value=Значение поля по умолчанию [x] Монитор качества: проверена безопасность кода
+2014-11-10 14:29:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:16 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.4.9%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:29:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:29:17 -  - TIME LoadModulesUpdates(request) 0.523 sec
+2014-11-10 14:29:17 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:17 - LMU01 - LoadModulesUpdates-Step
+2014-11-10 14:29:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:17 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:18 - DOWNLOAD - Time - 0.565032958984 sec
+2014-11-10 14:29:18 -  - exec CUpdateClientPartner::UnGzipArchive
+2014-11-10 14:29:18 -  - TIME UnGzipArchive 0.02 sec
+2014-11-10 14:29:18 - CSURUS1 - Run updater '/bitrix/updates/update_m1415615358/api.feedback/updater1.5.0.php'
+2014-11-10 14:29:18 -  - TIME UpdateStepModules 0.041 sec
+2014-11-10 14:29:18 - UPD_SUCCESS - Updated: api.feedback (1.5.0)<br>[+] возможность вывода разделителей полей в форме.<br> [+] возможность вывода #TICKET_ID# в сообщении после успешной отправки формы.<br>
+2014-11-10 14:29:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2014-11-10 14:29:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:18 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.5.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=api.feedback&lim=Y
+2014-11-10 14:29:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:29:19 -  - TIME LoadModulesUpdates(request) 0.436 sec
+2014-11-10 14:29:19 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:19 - STEP - Finish - NOUPDATES
+2014-11-10 14:29:19 - STEP - Finish - NOUPDATES
+2014-11-10 14:29:20 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-11-10 14:29:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:20 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.5.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback%2Capi.feedback%2Cbitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y
+2014-11-10 14:29:20 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:29:21 -  - TIME GetUpdatesList(request) 0.376 sec
+2014-11-10 14:29:21 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:29:21 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-11-10 14:29:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:29:21 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.5.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback%2Capi.feedback%2Cbitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y
+2014-11-10 14:29:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:29:22 -  - TIME GetUpdatesList(request) 0.491 sec
+2014-11-10 14:29:22 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:35:06 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-11-10 14:35:06 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:35:06 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.5.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback%2Capi.feedback%2Cbitrix.sitecorporate%2Cnsandrey.emptyinstall%2Caltasib.feedback
+2014-11-10 14:35:06 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:35:07 -  - TIME GetUpdatesList(request) 0.46 sec
+2014-11-10 14:35:07 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:41:00 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-11-10 14:41:00 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:41:00 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.5.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback%2Capi.feedback%2Cbitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y
+2014-11-10 14:41:00 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:41:00 -  - TIME GetUpdatesList(request) 0.412 sec
+2014-11-10 14:41:00 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:41:07 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-11-10 14:41:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:41:07 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.5.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback%2Capi.feedback%2Cbitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y
+2014-11-10 14:41:07 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:41:07 -  - TIME GetUpdatesList(request) 0.4 sec
+2014-11-10 14:41:07 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:41:10 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-11-10 14:41:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:41:10 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.5.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback%2Capi.feedback%2Cbitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y
+2014-11-10 14:41:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:41:18 -  - TIME GetUpdatesList(request) 8.659 sec
+2014-11-10 14:41:18 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:42:21 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-11-10 14:42:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:42:21 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.5.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback%2Capi.feedback%2Cbitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y
+2014-11-10 14:42:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:42:22 -  - TIME GetUpdatesList(request) 0.49 sec
+2014-11-10 14:42:22 -  - exec CUpdateClientPartner::ParseServerData
+2014-11-10 14:47:59 -  - exec CUpdateClientPartner::GetUpdatesList
+2014-11-10 14:47:59 -  - exec CUpdateClientPartner::__CollectRequestData
+2014-11-10 14:47:59 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.3.26&dbv=5.1.70&instm=main%2C14.5.0%2CY%3Baltasib.feedback%2C1.3.0%2CN%3Bapi.feedback%2C1.5.0%2CN%3Bbitrix.sitecorporate%2C14.5.0%2CN%3Bbitrixcloud%2C14.0.4%2CN%3Bclouds%2C14.5.0%2CN%3Bcompression%2C14.0.0%2CN%3Bfileman%2C14.5.0%2CN%3Bhighloadblock%2C14.0.6%2CN%3Biblock%2C14.5.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bperfmon%2C14.0.1%2CN%3Bsearch%2C14.5.0%2CN%3Bseo%2C14.5.0%2CN%3Bsocialservices%2C14.0.4%2CN&reqm=altasib.feedback%2Capi.feedback%2Cbitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y
+2014-11-10 14:47:59 -  - exec CUpdateClientPartner::GetHTTPPage
+2014-11-10 14:48:02 -  - TIME GetUpdatesList(request) 3.204 sec
+2014-11-10 14:48:02 -  - exec CUpdateClientPartner::ParseServerData

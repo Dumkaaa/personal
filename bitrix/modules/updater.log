@@ -1,0 +1,70 @@
+2014-11-07 10:47:36 -  - exec CUpdateClient::GetUpdatesList
+2014-11-07 10:47:36 -  - exec CUpdateClient::CollectRequestData
+2014-11-07 10:47:36 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=14.5.0&VERSION=14.5.0&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&CHHB=nts.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.26&stable=Y&bitm_main=14.5.0&bitm_bitrixcloud=14.0.4&bitm_clouds=14.5.0&bitm_compression=14.0.0&bitm_fileman=14.5.0&bitm_highloadblock=14.0.6&bitm_iblock=14.5.0&bitm_perfmon=14.0.1&bitm_search=14.5.0&bitm_seo=14.5.0&bitm_socialservices=14.0.4&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU
+2014-11-07 10:47:36 -  - exec CUpdateClient::GetHTTPPage
+2014-11-07 10:47:37 -  - TIME GetUpdatesList(request) 0.402 sec
+2014-11-07 10:47:37 -  - exec CUpdateClient::ParseServerData
+2014-11-07 10:47:41 -  - exec CUpdateClient::UpdateUpdate
+2014-11-07 10:47:41 -  - exec CUpdateClient::CollectRequestData
+2014-11-07 10:47:41 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=14.5.0&VERSION=14.5.0&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&CHHB=nts.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.26&stable=Y&bitm_main=14.5.0&bitm_bitrixcloud=14.0.4&bitm_clouds=14.5.0&bitm_compression=14.0.0&bitm_fileman=14.5.0&bitm_highloadblock=14.0.6&bitm_iblock=14.5.0&bitm_perfmon=14.0.1&bitm_search=14.5.0&bitm_seo=14.5.0&bitm_socialservices=14.0.4&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&query_type=updateupdate
+2014-11-07 10:47:41 -  - exec CUpdateClient::GetHTTPPage
+2014-11-07 10:47:46 -  - TIME UpdateUpdate(request) 5.267 sec
+2014-11-07 10:47:46 -  - exec CUpdateClient::UnGzipArchive
+2014-11-07 10:47:46 -  - TIME UnGzipArchive 0.061 sec
+2014-11-07 10:47:46 -  - exec CUpdateClient::ParseServerData
+2014-11-07 10:47:46 - CURV - Update updated successfully!
+2014-11-07 10:47:46 - UPD_SUCCESS - Update system updated
+2014-11-07 10:47:47 -  - exec CUpdateClient::GetUpdatesList
+2014-11-07 10:47:47 -  - exec CUpdateClient::CollectRequestData
+2014-11-07 10:47:47 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=14.9.2&VERSION=14.5.0&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&CHHB=nts.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.26&stable=Y&bitm_main=14.5.0&bitm_bitrixcloud=14.0.4&bitm_clouds=14.5.0&bitm_compression=14.0.0&bitm_fileman=14.5.0&bitm_highloadblock=14.0.6&bitm_iblock=14.5.0&bitm_perfmon=14.0.1&bitm_search=14.5.0&bitm_seo=14.5.0&bitm_socialservices=14.0.4&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N
+2014-11-07 10:47:47 -  - exec CUpdateClient::GetHTTPPage
+2014-11-07 10:47:48 -  - TIME GetUpdatesList(request) 0.825 sec
+2014-11-07 10:47:48 -  - exec CUpdateClient::ParseServerData
+2014-11-07 10:51:54 -  - exec CUpdateClient::GetUpdatesList
+2014-11-07 10:51:54 -  - exec CUpdateClient::CollectRequestData
+2014-11-07 10:51:54 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=14.9.2&VERSION=14.5.0&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&CHHB=nts.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.26&stable=Y&bitm_main=14.5.0&bitm_bitrixcloud=14.0.4&bitm_clouds=14.5.0&bitm_compression=14.0.0&bitm_fileman=14.5.0&bitm_highloadblock=14.0.6&bitm_iblock=14.5.0&bitm_perfmon=14.0.1&bitm_search=14.5.0&bitm_seo=14.5.0&bitm_socialservices=14.0.4&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N
+2014-11-07 10:51:54 -  - exec CUpdateClient::GetHTTPPage
+2014-11-07 10:51:54 -  - TIME GetUpdatesList(request) 0.355 sec
+2014-11-07 10:51:54 -  - exec CUpdateClient::ParseServerData
+2014-11-07 11:02:06 -  - exec CUpdateClient::GetUpdatesList
+2014-11-07 11:02:06 -  - exec CUpdateClient::CollectRequestData
+2014-11-07 11:02:06 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=14.9.2&VERSION=14.5.0&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&CHHB=nts.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.26&stable=Y&bitm_main=14.5.0&bitm_bitrixcloud=14.0.4&bitm_clouds=14.5.0&bitm_compression=14.0.0&bitm_fileman=14.5.0&bitm_highloadblock=14.0.6&bitm_iblock=14.5.0&bitm_perfmon=14.0.1&bitm_search=14.5.0&bitm_seo=14.5.0&bitm_socialservices=14.0.4&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N
+2014-11-07 11:02:06 -  - exec CUpdateClient::GetHTTPPage
+2014-11-07 11:02:07 -  - TIME GetUpdatesList(request) 0.849 sec
+2014-11-07 11:02:07 -  - exec CUpdateClient::ParseServerData
+2014-11-10 17:18:00 -  - exec CUpdateClient::GetUpdatesList
+2014-11-10 17:18:00 -  - exec CUpdateClient::CollectRequestData
+2014-11-10 17:18:00 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=14.9.2&VERSION=14.5.0&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&CHHB=nts.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.26&stable=Y&bitm_main=14.5.0&bitm_bitrixcloud=14.0.4&bitm_clouds=14.5.0&bitm_compression=14.0.0&bitm_fileman=14.5.0&bitm_highloadblock=14.0.6&bitm_iblock=14.5.0&bitm_perfmon=14.0.1&bitm_search=14.5.0&bitm_seo=14.5.0&bitm_socialservices=14.0.4&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N
+2014-11-10 17:18:00 -  - exec CUpdateClient::GetHTTPPage
+2014-11-10 17:18:01 -  - TIME GetUpdatesList(request) 0.729 sec
+2014-11-10 17:18:01 -  - exec CUpdateClient::ParseServerData
+2014-11-11 09:55:27 -  - exec CUpdateClient::GetUpdatesList
+2014-11-11 09:55:27 -  - exec CUpdateClient::CollectRequestData
+2014-11-11 09:55:28 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=14.9.2&VERSION=14.5.0&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&CHHB=nts.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.26&stable=Y&bitm_main=14.5.0&bitm_bitrixcloud=14.0.4&bitm_clouds=14.5.0&bitm_compression=14.0.0&bitm_fileman=14.5.0&bitm_highloadblock=14.0.6&bitm_iblock=14.5.0&bitm_perfmon=14.0.1&bitm_search=14.5.0&bitm_seo=14.5.0&bitm_socialservices=14.0.4&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N
+2014-11-11 09:55:28 -  - exec CUpdateClient::GetHTTPPage
+2014-11-11 09:55:28 -  - TIME GetUpdatesList(request) 0.458 sec
+2014-11-11 09:55:28 -  - exec CUpdateClient::ParseServerData
+2014-12-08 16:14:37 -  - exec CUpdateClient::GetUpdatesList
+2014-12-08 16:14:37 -  - exec CUpdateClient::CollectRequestData
+2014-12-08 16:14:37 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=14.9.2&VERSION=14.5.0&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&CHHB=nts.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.26&stable=Y&bitm_main=14.5.0&bitm_bitrixcloud=14.0.4&bitm_clouds=14.5.0&bitm_compression=14.0.0&bitm_fileman=14.5.0&bitm_highloadblock=14.0.6&bitm_iblock=14.5.0&bitm_perfmon=14.0.1&bitm_search=14.5.0&bitm_seo=14.5.0&bitm_socialservices=14.0.4&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N
+2014-12-08 16:14:37 -  - exec CUpdateClient::GetHTTPPage
+2014-12-08 16:14:38 -  - TIME GetUpdatesList(request) 0.485 sec
+2014-12-08 16:14:38 -  - exec CUpdateClient::ParseServerData
+2014-12-08 16:14:53 -  - exec CUpdateClient::GetUpdatesList
+2014-12-08 16:14:53 -  - exec CUpdateClient::CollectRequestData
+2014-12-08 16:14:54 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=14.9.2&VERSION=14.5.0&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&CHHB=nts.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.26&stable=Y&bitm_main=14.5.0&bitm_bitrixcloud=14.0.4&bitm_clouds=14.5.0&bitm_compression=14.0.0&bitm_fileman=14.5.0&bitm_highloadblock=14.0.6&bitm_iblock=14.5.0&bitm_perfmon=14.0.1&bitm_search=14.5.0&bitm_seo=14.5.0&bitm_socialservices=14.0.4&bitm_sortable=0.0.1&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N
+2014-12-08 16:14:54 -  - exec CUpdateClient::GetHTTPPage
+2014-12-08 16:14:54 -  - TIME GetUpdatesList(request) 0.316 sec
+2014-12-08 16:14:54 -  - exec CUpdateClient::ParseServerData
+2014-12-09 14:01:10 -  - exec CUpdateClient::GetUpdatesList
+2014-12-09 14:01:10 -  - exec CUpdateClient::CollectRequestData
+2014-12-09 14:01:11 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=14.9.2&VERSION=14.5.0&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&CHHB=nts.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.26&stable=Y&bitm_main=14.5.0&bitm_bitrixcloud=14.0.4&bitm_clouds=14.5.0&bitm_compression=14.0.0&bitm_fileman=14.5.0&bitm_highloadblock=14.0.6&bitm_iblock=14.5.0&bitm_perfmon=14.0.1&bitm_search=14.5.0&bitm_seo=14.5.0&bitm_socialservices=14.0.4&bitm_sortable=0.0.1&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N
+2014-12-09 14:01:11 -  - exec CUpdateClient::GetHTTPPage
+2014-12-09 14:01:11 -  - TIME GetUpdatesList(request) 0.501 sec
+2014-12-09 14:01:11 -  - exec CUpdateClient::ParseServerData
+2014-12-09 14:02:47 -  - exec CUpdateClient::GetUpdatesList
+2014-12-09 14:02:47 -  - exec CUpdateClient::CollectRequestData
+2014-12-09 14:02:47 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=14.9.2&VERSION=14.5.0&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=nts.com&CHHB=nts.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.3.26&stable=Y&bitm_main=14.5.0&bitm_bitrixcloud=14.0.4&bitm_clouds=14.5.0&bitm_compression=14.0.0&bitm_fileman=14.5.0&bitm_highloadblock=14.0.6&bitm_iblock=14.5.0&bitm_perfmon=14.0.1&bitm_search=14.5.0&bitm_seo=14.5.0&bitm_socialservices=14.0.4&bitm_sortable=0.0.1&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N
+2014-12-09 14:02:47 -  - exec CUpdateClient::GetHTTPPage
+2014-12-09 14:02:48 -  - TIME GetUpdatesList(request) 0.453 sec
+2014-12-09 14:02:48 -  - exec CUpdateClient::ParseServerData

@@ -1,0 +1,1 @@
+<? $arFilesInfo = array( 'FILES' => array("/bitrix/components/altasib/feedback.form/templates/.default/style.css" => "14156151345298",), 'CUR_SEL_CNT' => '28', 'CUR_IE_CNT' => '0'); ?>

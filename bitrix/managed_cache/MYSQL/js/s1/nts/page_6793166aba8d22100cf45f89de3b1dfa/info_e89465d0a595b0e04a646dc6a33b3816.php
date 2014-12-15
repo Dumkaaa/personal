@@ -1,0 +1,1 @@
+<? $arFilesInfo = array( 'FILES' => array("/bitrix/templates/nts/components/bitrix/catalog/catalog/bitrix/catalog.element/.default/script.js" => "141534860048321",), 'CUR_SEL_CNT' => '0', 'CUR_IE_CNT' => '0'); ?>

@@ -1,0 +1,1 @@
+<? $arFilesInfo = array( 'FILES' => array("/bitrix/templates/nts/template_styles.css" => "141534487814167","/bitrix/js/fileman/sticker.css" => "141534239126807",), 'CUR_SEL_CNT' => '435', 'CUR_IE_CNT' => '0'); ?>

@@ -1,0 +1,789 @@
+
+/* Start:/bitrix/templates/.default/components/bitrix/menu/top-menu/style.css*/
+/* Left menu*/
+ul.left-menu
+{
+	list-style:none;
+	margin:0; padding:0;
+	margin-bottom:8px;
+	position: relative; /*IE bug*/
+}
+
+ul.left-menu li
+{
+	padding: 10px 16px;
+	background:#F5F5F5 url('/bitrix/templates/.default/components/bitrix/menu/top-menu/images/left_menu_bg.gif') top repeat-x;
+}
+
+ul.left-menu li a
+{
+	font-size:100%;
+	color:#BC262C;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+ul.left-menu li a:visited
+{
+	color:#BC262C;
+}
+
+ul.left-menu li a:hover
+{
+	color:#BC262C;
+}
+
+
+ul.left-menu li a.selected:link, 
+ul.left-menu li a.selected:visited, 
+ul.left-menu li a.selected:active, 
+ul.left-menu li a.selected:hover
+{
+	color:#FC8D3D;
+}
+
+
+
+/* End */
+
+/* Start:/bitrix/templates/nts/components/bitrix/menu/top-bottom/style.css*/
+/* Left menu*/
+ul.left-menu
+{
+	list-style:none;
+	margin:0; padding:0;
+	margin-bottom:8px;
+	position: relative; /*IE bug*/
+}
+
+ul.left-menu li
+{
+	padding: 10px 16px;
+	background:#F5F5F5 url('/bitrix/templates/nts/components/bitrix/menu/top-bottom/images/left_menu_bg.gif') top repeat-x;
+}
+
+ul.left-menu li a
+{
+	font-size:100%;
+	color:#BC262C;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+ul.left-menu li a:visited
+{
+	color:#BC262C;
+}
+
+ul.left-menu li a:hover
+{
+	color:#BC262C;
+}
+
+
+ul.left-menu li a.selected:link, 
+ul.left-menu li a.selected:visited, 
+ul.left-menu li a.selected:active, 
+ul.left-menu li a.selected:hover
+{
+	color:#FC8D3D;
+}
+
+
+
+/* End */
+
+/* Start:/bitrix/components/bitrix/system.pagenavigation/templates/modern/style.css*/
+div.modern-page-navigation { 
+	padding: 0.5em 0;}
+div.modern-page-navigation a, 
+span.modern-page-current, 
+span.modern-page-dots
+{
+	border-left-width: 1px;
+	border-left-style: solid;
+	padding-left: 0.75em;
+	padding-right: 0.5em;
+	text-decoration: none;
+}
+div.modern-page-navigation a.modern-page-previous { 
+	border-right-width: 1px; 
+	border-right-style: solid; 
+	border-left: none; }
+div.modern-page-navigation a.modern-page-first, 
+div.modern-page-navigation span.modern-page-first { 
+	border-left: none; 
+	padding-left: 0.5em; }
+span.modern-page-current { 
+	font-weight: bold; }
+div.modern-page-navigation a, 
+span.modern-page-current, 
+div.modern-page-navigation a.modern-page-previous, 
+span.modern-page-dots { 
+	border-color: #cdcdcd; }
+/* End */
+
+/* Start:/bitrix/templates/.default/components/bitrix/news.list/news-right/style.css*/
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+/* End */
+
+/* Start:/bitrix/templates/nts/template_styles.css*/
+body {
+    text-align: inherit;
+    font-family: Tahoma, "Lucida Sans Unicode", "Lucida Grande",
+                 Verdana, Helvetica, "DejaVu Sans", arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    background-color: #fff;
+}
+
+/* Оформление ссылок по умолчанию */
+
+a {
+    color: #000;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #000;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+a:hover, a:active {
+    color: #fecc00;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+
+/* Оформление заголовков по умолчанию */
+
+h1, h2, h3, h4, h5, h6, .componentheading, .contentheading {
+    color: #000;
+    font-weight: normal;
+    padding-bottom: 12px;    
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+h2, .componentheading {
+    font-size: 26px;
+    line-height: 26px;
+}
+
+h3, .contentheading {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+h5 {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+h6 {
+    font-size: 10px;
+    line-height: 10px;
+}
+
+
+/* Оформление списков по умолчанию */
+
+ul, ol {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul a, ol a {
+	text-decoration: none;
+}
+
+
+/* Оформление элементов ввода по умолчанию */
+
+input, button, textarea {
+    font-family: Tahoma, "Lucida Sans Unicode", "Lucida Grande",
+                 Verdana, Helvetica, "DejaVu Sans", arial, sans-serif;
+    outline: 0;
+}
+
+textarea {
+    width: 350px;
+    height: 140px;
+}
+
+
+/* Оформление системных и отладочных сообщений */
+
+dl#system-message {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+dl#system-message dd.message {
+	padding-bottom: 20px;
+}
+
+dl#system-message dt.message { display: none; }
+dl#system-message dd.message ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.clear {clear: both; overflow: hidden;}
+
+/* Верстка */
+
+div.container {
+    width: 1174px;
+    left: 0;
+    top: 0;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    overflow: visible;
+    float: none;
+    clear: both;
+}
+
+
+/* Шапка сайта */
+
+div.header {
+    width: 100%;
+    height: 165px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+/* Ссылка на главную страницу на логотипе */
+
+a.logo {
+    width: 151px;
+    height: 138px;
+    top: 20px;
+    left: 100px;
+    display: block;
+    position: absolute;
+    background: url('/bitrix/templates/nts/img/logo.png') 0 0 no-repeat;
+}
+
+/* Главное меню */
+
+div.menu {
+    width: 455px;
+    height: 20px;
+    float: right;
+    margin: 30px 45px 30px 0;
+}
+
+
+/* Простое главное меню */
+
+div.menu a.mainlevel, div.menu a.mainlevel:link, div.menu a.mainlevel:visited {
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    float: left;
+    color: #000;
+    font-size: 15px;
+    padding: 0 3px;
+    text-decoration: none;
+    text-align: center;
+    border-left: 1px solid;
+}
+div.menu a:first-child {
+    border: none !important;}
+
+div.menu a.mainlevel:hover, div.menu a.mainlevel:active, div.menu a#active_menu {
+    border-bottom: 1px solid #fecc00;
+}
+
+div.menu span.mainlevel {
+    font-size: 15px;
+    padding: 0 3px;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+.moduletable_phone {
+    float: right;
+    margin-right: 75px;
+    font-size: 13px;
+    text-align: right;
+}
+.moduletable_phone span {
+    font-size: 21px;
+    font-weight: bold;
+    color: #ed1c24;
+}
+.moduletable_phone a {text-decoration: none;}
+.moduletable_phone a:hover, .moduletable_phone a:active {text-decoration: underline;}
+
+div.top_index {
+    width: 985px;
+    height: 440px;
+    position: relative;
+    margin: 0 auto 20px;
+}
+
+div.top_index .moduletable_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+div.top_index div.moduletable_left {
+    width: 225px;
+    float: left;
+    overflow: hidden;
+    background: url('/bitrix/templates/nts/img/fon.png') 0 0 repeat;
+    border-right: 1px solid #fecc00;
+}
+
+div.top_index div.moduletable_right {
+    width: 225px;
+    float: right;
+    overflow: hidden;
+    background: url('/bitrix/templates/nts/img/fon.png') 0 0 repeat;
+    border-left: 1px solid #fecc00;
+}
+
+div.top_index ul.menu {list-style: none; margin: 0;} 
+div.top_index ul.menu li {list-style: none;}
+div.top_index ul.menu a {
+    display: block;
+    width: 160px;
+    font-size: 22px;
+    line-height: 28px;
+    color: #231f20;
+    border-bottom: 1px dotted #585756;
+    text-decoration: none;
+    background: url('/bitrix/templates/nts/img/menu.png') no-repeat;
+}
+
+div.top_index div.moduletable_left ul.menu{margin-right: 10px; float: left;}
+div.top_index div.moduletable_left ul.menu a {
+    text-align: right;
+    padding-right: 20px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    background-position: 100% 50%;
+}
+div.top_index div.moduletable_right ul.menu{margin-left: 10px; float: right;}
+div.top_index div.moduletable_right ul.menu a {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    background-position: 0 50%;
+}
+
+div.top_index ul.menu a:active, div.top_index ul.menu a:hover {
+    border-bottom: 1px solid #fecc00;
+    background: url('/bitrix/templates/nts/img/menu_a.png') no-repeat;
+}
+
+div.top {
+    width: 985px;
+    height: 225px;
+    position: relative;
+    margin: 0 auto 20px;
+}
+
+div.top div.moduletable_left,
+div.top div.moduletable_right {
+    width: 100%;
+    clear: both;
+    height: 100px;
+    margin-bottom: 10px;
+}
+div.top ul.menu {margin: 0;}
+div.top ul.menu li {
+    width: 170px;
+    height: 100px;
+    padding: 0px 13px;
+    list-style: none;
+    vertical-align: bottom;
+    display: table-cell;
+}
+
+div.top ul.menu li.parent ul {display: none;}
+
+div.top li a {
+    width: 150px;
+    float: left;
+    font-size: 22px;
+    line-height: 28px;
+    color: #231f20;
+    border-bottom: 1px dotted #585756;
+    text-decoration: none;
+    background: url('/bitrix/templates/nts/img/menu.png') no-repeat;
+    text-align: left;
+    padding-right: 20px;
+    margin-top: 27px;
+    background-position: 100% 50%;
+}
+div.top li.item18 a {margin-top: 55px;}
+div.top li.item22 a, div.top li.item23 a {margin-top: 0;}
+div.top ul.menu a:active, div.top ul.menu a:hover, div.top ul.menu li.active a {
+    border-bottom: 1px solid #fecc00;
+    background: url('/bitrix/templates/nts/img/menu_a.png') 100% 50% no-repeat;
+}
+
+/* Центральная часть страницы */
+
+div.main {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-bottom: 1px dotted #585756;
+}
+
+div.main_left {
+    width: 762px;
+    float: left;
+    overflow: hidden;
+}
+
+/*div.main_left table.contentpaneopen td.contentheading,*/ div.componentheading_news {
+    width: 742px;
+    display: block;
+    border: 0;
+    font-size: 21px;
+    line-height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #c5c6c6;
+}
+
+div.main_left div.componentheading {
+    padding: 5px 50px 10px;
+    background: #c5c6c6;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 65px;
+}
+
+
+div.main_left table.blog td.contentheading {
+    font-size: 14px;
+    color: #414042;
+    border: 0;
+    font-weight: bold;
+}
+div.main_left table.blog td.article_column div.article {position: relative;}
+div.main_left table.blog div.images_s {position: absolute; top: 0; margin: 0; overflow: hidden;}
+div.main_left table.blog div.title_s {padding-top: 115px; text-align: center; position: relative; z-index: 100;}
+div.main_left table.blog div.title_s table.title_s {text-align: center;}
+div.main_left table.blog div.title_s table.title_s a {font-weight: bold; padding: 0 20px;}
+div.main_left tr.first img {
+    margin: 0 30px 70px 50px;
+    border: 1px solid #a4a4a4;
+}
+
+div.main_left table.blog div.images_s table.images_s {list-style: none; width: 250px; text-align: center; margin-bottom: 50px;}
+div.ramka {
+    width: 106px;
+    height: 108px;
+    margin: 10px auto;
+    background: url('/bitrix/templates/nts/img/ramka.png') 0 0 no-repeat;
+}
+div.ramka img {max-width: 100px; max-height: 90px; margin: 3px; border: 0;}
+
+table.contentpaneopen td.gray_title{
+width: 742px;
+display: block;
+border: 0;
+font-size: 21px;
+line-height: 30px;
+    padding: 5px 50px 10px;
+margin-bottom: 10px;
+background: #C5C6C6;
+}
+
+table.contentpaneopen td.gray_title a {color: #000; text-decoration: none; font-size: 21px; padding-left: 10px;}
+
+div.main_left div.punktir {border-bottom: 1px dotted #585756; margin: 0 0 40px 0; clear: both; font-size: 0;}
+
+div.main_left table.contentpaneopen td {
+    font-size: 14px;
+    color: #414042;
+    border: 0;}
+
+.contentheading {
+    padding: 5px 50px 10px;
+    background: #c5c6c6;
+    color: #000 !important;
+    font-size: 24px !important;
+}
+
+div.main_left table.contentpaneopen img {
+    border: 1px solid #414042;
+    margin: 0 30px 60px 50px;
+}
+div.main_left div.catalog {
+    width: 760px;
+    overflow: hidden;
+    border-left: 1px solid #fecc00;
+}
+
+div.main_left div.catalog h3 {
+    height: 42px;
+    line-height: 42px;
+    padding-left: 50px;
+    background: url('/bitrix/templates/nts/img/yelow.png') 0 0 repeat-x;
+}
+
+div.main_left div.catalog .moduletable, div.main_left div.catalog .moduletable_t {
+    overflow: hidden;
+    width: 100%;
+}
+
+div.main_left div.catalog .moduletable h3 {
+    width: 240px;
+    height: 19px;
+    color: #4d4d4f;
+    font-size: 17px;
+    line-height: 19px;
+    margin-left: 50px;
+    font-weight: bold;
+    padding: 12px 10px 24px 20px;
+    background: url('/bitrix/templates/nts/img/h.png') 0 0 no-repeat;
+}
+
+div.main_left div.catalog .moduletable_t h3 {
+    width: 234px;
+    height: 42px;
+    color: #4d4d4f;
+    font-size: 17px;
+    line-height: 19px;
+    margin-left: 50px;
+    font-weight: bold;
+    padding: 1px 15px 11px 20px;
+    background: url('/bitrix/templates/nts/img/h.png') 0 0 no-repeat;
+}
+
+div.main_left div.catalog .last ul {border: none !important;}
+
+div.main_left div.catalog ul {
+    width: 710px;
+    overflow: hidden;
+    border-bottom: 1px dotted #585756;
+    padding-bottom: 10px;
+    margin: 10px 0 20px 50px;
+}
+
+div.main_left div.catalog ul li {
+    width: 40%;
+    margin: 0 41px 5px 30px;
+    list-style: none;
+    padding: 0;
+    float: left;
+}
+
+div.main_left div.catalog ul li a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #4d4d4f;
+}
+
+div.main_left div.catalog ul li a:hover {
+    color: #fecc00;
+}
+
+/**/
+table.ssilka {
+    width: 400px;
+    right: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+div.main_left table.ssilka td {border: 0; font-size: 0px; text-align: center;}
+
+table.ssilka td.t1 a {font-size: 12px; padding-top: 25px; background: url('/bitrix/templates/nts/img/ico1.png') 50% 0 no-repeat;}
+table.ssilka td.t2 a {font-size: 12px; padding-top: 25px; background: url('/bitrix/templates/nts/img/ico2.png') 50% 0 no-repeat;}
+table.ssilka td.t3 a {font-size: 12px; padding-top: 25px; background: url('/bitrix/templates/nts/img/ico3.png') 50% 0 no-repeat;}
+/**/
+
+div.main_left table.contentpaneopen p {margin: 0 10px;}
+
+div.main_left div.razdel.componentheading {margin-bottom: 20px;}
+td.contentdescription img {border: 1px solid #414042; margin: 0 20px 20px;}
+
+div.main_right {
+    width: 395px;
+    float: right;
+	overflow: hidden;
+}
+
+div.main_right div.moduletable_blok1 {
+    width: 394px;
+    overflow: hidden;
+    border-left: 1px solid #e31e24;
+    background: #ebecec;
+}
+
+div.main_right div.moduletable_blok1 h3 {
+    height: 41px;
+    padding-left: 30px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 41px;
+    font-weight: bold;
+    background: url('/bitrix/templates/nts/img/read.png') 0 0 repeat-x;
+}
+
+div.main_right div.moduletable_blok1 div, div.main_right div.moduletable_blok1 p {
+    padding: 5px 10px 10px 20px;
+}
+
+div.main_right div.moduletable_all {
+    width: 364px;
+    overflow: hidden;
+    border-left: 1px solid #ececec;
+    padding: 10px 30px 10px 0;
+    text-align: right;
+    font-size: 16px;
+}
+
+div.main_right div.moduletable_all.zakaz {
+    width: 364px;
+    overflow: hidden;
+    border-left: 1px solid #e31e24;
+    background: #ebecec;
+    padding: 10px 30px 10px 0;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+div.main_right div.moduletable_all.zakaz a {color: #e31e24;}
+
+div.main_right div.moduletable_blok2, div.main_right div.moduletable_banner, div.main_right div.moduletable {
+    width: 394px;
+    overflow: hidden;
+    border-left: 1px solid #ececec;
+}
+
+div.main_right div.moduletable_blok2 h3, div.main_right div.moduletable h3 {
+    height: 41px;
+    padding-left: 30px;
+    color: #000;
+    font-size: 22px;
+    line-height: 41px;
+    background: url('/bitrix/templates/nts/img/gray.png') 0 0 repeat-x;
+}
+
+div.main_right div.moduletable_blok2 img, div.main_right div.moduletable_banner img {margin: 10px 0 20px 20px;}
+
+div.main_right div.moduletable .mod_news {
+    margin-left: 20px;
+}
+
+div.main_right div.moduletable .mod_news_item {overflow: hidden; margin: 10px 0;}
+
+table.contentpaneopen, div.moduletable { clear: both; }
+
+/* Фотогалерея */
+
+div#phocagallery a, div#phocagallery a:link, div#phocagallery a:visited {
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+div#phocagallery a:hover, div#phocagallery a:active {
+    text-decoration: underline;
+}
+
+div#phocagallery table tr td {
+    padding: 15px;
+    vertical-align: middle;
+}
+
+div#phocagallery table tr td img {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 3px;
+    background: #fecc00;
+}
+
+div#phocagallery div.phocagallery-box-file {
+    height: auto !important;
+    cursor: pointer;
+}
+
+div#phocagallery div.phocagallery-box-file div.phocaimgdesc {
+    padding-top: 4px;
+    line-height: 13px;
+}
+
+div#phocagallery div.phocagallery-box-file {
+    width: 147px !important;
+}
+
+div#phocagallery div.phocagallery-box-file div.phocagallery-box-file-first {
+    background: #fff;
+}
+
+
+/* Подвал */
+
+div.footer {
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    color: #4d4d4f;
+    line-height: 20px;
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+div.moduletable_footer {
+    width: 100%;
+    margin-top: 30px;
+}
+div.moduletable_footer table{width: 100%; text-align: left;}
+div.moduletable_footer table td {padding: 0 20px; border-left: 1px dotted #4d4d4f; vertical-align: bottom;}
+div.moduletable_footer table td:first-child {border: 0;}
+
+.top .moduletable_left {margin-top:-20px;}
+.sect_img img {margin: 0 30px 70px 50px;
+    border: 1px solid #a4a4a4;}
+.bx_catalog_item_container {width: 33%;text-align: center;float: left;}
+.sect {display: block; min-height: 260px;}
+p.news-item {margin-bottom: 20px;}
+
+.photo-sections-top td {
+    padding: 15px;
+vertical-align: middle;}
+/* End */
